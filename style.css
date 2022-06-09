@@ -1,0 +1,99 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.converter{
+    border: 1px solid rgba(0, 0, 0, 0.596);
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+}
+.cel{
+    margin-top: 15%;
+}
+.cel #cel{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 1s;
+    border-color: aqua;
+}
+.cel #cel:focus{
+    width: 300px;
+    border-color: rgb(209, 27, 20);
+
+}
+.fah{
+    margin-top: 10%;
+}
+.fah #fah{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 1s;
+    border-color: aqua;
+
+}
+.fah #fah:focus{
+    width: 300px;
+    border-color: rgb(209, 27, 20);
+}
+.cel span{
+    margin-right: 20px;
+}
+
+ #navbar{
+    position: fixed;
+    background-color: aqua;
+    height: 100vh;
+    width: 200px;
+    right: -250px;
+    transition: 1s;
+} 
+#navbar button{
+    height: 30px;
+    width: 60px;
+    background-color: aqua;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    top: 400px;
+    right: 75px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+#navbar ul li{
+    margin: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+/* .side-slide #navbar{
+    position: fixed;
+    background-color: aqua;
+    height: 100vh;
+    width: 200px;
+} */
+
+#bca{
+    width: 80px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-left: 45%;
+    font: bold;
+}
+#para{
+  transition: 1s;
+}
